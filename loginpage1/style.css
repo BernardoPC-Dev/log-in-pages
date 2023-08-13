@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Log In title*/
+h2#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* All the inputs */
+input {
+    border: 3px solid #441744;
+    height: 3rem;
+    width: 20rem;
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0px;
+}
+/* Submit Button */
+button#submit {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0px;
+    width: 90px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: #F9FBF2;
+    background-color: #5D205B;
+}
+/* Logo */
+img#logo {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* Email Input */
+input#email {
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid gray;
+}
+/* Password Input */
+input#password {
+    border-radius: 0px 0px 10px 10px;
+    border-top: 1px solid gray;
+    margin-bottom: 20px;
+}
+/* Copyright Symbol */
+span#copy {
+    margin-top: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: gray;
+    opacity: 80%;
+}
