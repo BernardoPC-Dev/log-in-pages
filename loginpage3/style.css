@@ -31,7 +31,7 @@ section#form {
     width: 23rem
     }
 }
-h3 {
+h2 {
     text-align: center;
     margin: 10px;
 }
@@ -51,6 +51,9 @@ button {
     border-radius: 15px;
     padding: 12px;
     font-size: 15px;
+}
+button:hover {
+    cursor: pointer;
 }
 div.inputs {
     display: flex;
