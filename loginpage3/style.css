@@ -55,3 +55,7 @@ button {
 div.inputs {
     display: flex;
 }
+span {
+    margin-top: 20px;
+    margin-left: 5px;
+}
