@@ -7,6 +7,7 @@ body {
     width: 100vh;
     height: 100vh;
     background-image: linear-gradient(to bottom right,blue, blueviolet);
+    background-size: cover;
 }
 section#form {
     border: 1px solid black;
@@ -21,14 +22,14 @@ section#form {
 }
 @media (orientation: portrait) {
     section#form {
-    height: 20rem;
-    width: 13rem
+    height: 70vh;
+    width: 40vh;
     }
 }
 @media (orientation: landscape) {
     section#form {
-    height: 20rem;
-    width: 23rem
+    height: 50vh;
+    width: 70vh;
     }
 }
 h2 {
