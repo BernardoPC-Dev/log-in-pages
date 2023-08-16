@@ -6,7 +6,7 @@
 body {
     width: 100vh;
     height: 100vh;
-    background-image: linear-gradient(to bottom right,blue, blueviolet);
+    background-image: linear-gradient(to bottom right, blue, blueviolet);
     background-size: 100%;
     overflow: hidden;
 }
@@ -42,6 +42,7 @@ section#form {
 h2 {
     text-align: center;
     margin: 10px;
+    text-decoration: underline;
 }
 input {
     margin: 10px;
