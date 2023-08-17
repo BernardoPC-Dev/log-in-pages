@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(blue, aqua);
+    background-size: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+section {
+    border: 3px lightgray solid;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 1px 1px 50px 1px black;
+    overflow: hidden;
+}
+
+input {
+    border: 1px lightgray solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+button {
+    color: white;
+    background-color: rgb(1, 141, 255);
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+/* Media Queries */
+
+@media (max-width: 500px) {
+    section {
+        display: block;
+        height: 400px;
+        width: 250px;
+    }
+    div.imagem {
+        background: url(imageport.jpg) no-repeat center;
+        height: 100px;
+        width: 250px;
+    }
+}
+@media (min-width: 501px) {
+    section {
+        display: block;
+        float: right;
+        height: 300px;
+        width: 400px;
+    }
+    div.imagem {
+        display: block;
+        float: left;
+        background: url(imageland.jpg) no-repeat center;
+        height: 100%;
+        width: 30%;
+    }
+}
