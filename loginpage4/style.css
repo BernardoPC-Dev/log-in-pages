@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background: linear-gradient(blue, aqua);
+    background: linear-gradient(to bottom right, lightgreen, aqua);
     background-size: 100%;
     overflow: hidden;
     background-attachment: fixed;
